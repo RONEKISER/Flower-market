@@ -5,6 +5,28 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+/* nav start  */
+nav{
+    background-color: #fffff0;
+}
+.text-primary{
+    color: #E55473;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+nav ul {
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+}
+nav ul a{
+    text-decoration: none;
+    
+}
 /* header style start  */
 header{
     
@@ -119,4 +141,71 @@ header img {
 }
 .discount-img{
     width: 50%;
+}
+
+/* instragram section style  */
+
+.instagram-img{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1400px;
+}
+.instagram-img img{
+    
+    height: 200px;
+    width: 200px;
+}
+/* deals section  */
+.Deals-section{
+
+    height: 400px;
+    margin-top: 50px;
+    padding: 80px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position:center;
+    text-align: center;
+}
+.deals-field{
+    text-align: center;
+}
+.input-field{
+    border: 0px;
+    width: 600px;
+    height: 55px;
+    border-radius: 8px;
+    background: #FFF;
+}
+/* footer style  */
+footer{
+    padding:30px 40px 70px 40px;
+    background: #111010;
+    text-align: center;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-style{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+.footer-info{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+small{
+    color: rgba(255, 255, 255, 0.40);
+
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
 }
